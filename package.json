@@ -1,0 +1,26 @@
+{
+  "name": "cutterman-uxp-panel",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "watch": "node watch.js",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-legacy": "^4.0.1",
+    "@vitejs/plugin-react": "^3.1.0",
+    "node-watch": "^0.7.3",
+    "terser": "^5.16.5",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0",
+    "vite-plugin-static-copy": "^0.13.1"
+  }
+}
