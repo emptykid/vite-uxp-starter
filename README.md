@@ -30,6 +30,7 @@ I added a plugin `plugin-legacy` to build `type="text/javascript"`.
 
 Sadly, there seems to bugs in the plugin, which makes `vite build --watch` not work as excepted. See this [issue](https://github.com/vitejs/vite/issues/6133), So I added a isolate `node-watch` to watch files.
 
+If you would like to use `Webpack` , see this project [webpack-uxp-start](https://github.com/emptykid/webpack-uxp-starter)
 
 ## License
 
